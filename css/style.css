@@ -1,0 +1,144 @@
+/* /* body {
+    background-color: magenta;
+} */
+
+/* p{
+    color: violet;
+    font-size: 80px;
+} */
+
+body{
+    padding-bottom: 500px;
+}
+
+/* 08 Classes */
+
+.paragraph {
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+}
+
+/* 09 ID */
+
+#exclusive-title{
+    background-color: purple;
+    color: beige;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* 10 Multiplas regras */
+
+h2{
+    border-bottom: 2px dotted red;
+}
+
+h2{
+    border-bottom: 2px dotted darkmagenta;
+}
+
+h2{
+    border-bottom: 2px dotted darkcyan;
+}
+
+/* 11 nome da cor */
+
+.color-name{
+    color: darkorchid
+}
+
+/* 12 hex */
+
+.hex{
+    background: brown;
+    color: rgb(43, 226, 186);
+}
+
+.hex-2{
+    background: darkgreen;
+    color: blue;
+}
+
+/* 13 hex simplificado */
+
+.simple-hex{
+    /* color: #33333 */
+    color: #333;
+}
+
+.simple-hex-2{
+    /* color: #aa5ff */
+    color:#a5f
+}
+
+/* 14 rgb */
+
+.rgb{
+    color: rgb(255,0,0);
+}
+
+.mixed-rgb{
+    color: rgb(43, 226, 186);
+}
+
+/* 15  RGBA */
+
+.rgba{
+    color: rgba(26,0,0);
+}
+
+.bg-image{
+    background-image: url(../img/nature.jpg);
+    padding: 50px;
+    color:aliceblue
+}
+
+.bg-opacity{
+    background-color: peru;
+    opacity: 0.8;
+}
+
+.bg-opacity-2{
+    background-color: #999;
+    color: #333;
+    opacity: 0.8;
+}
+
+.bg-opacity-3{
+    background-color: #999;
+    color: #000;
+    opacity: 0.8;
+}
+
+.center-bg,
+.not-centered-bg{
+    background-image: url(../img/bridge.jpg);
+    height: 400px;
+    width: 400px;
+}
+
+.centered-bg{
+    border: 4px dotted purple;
+    background-position: center;
+    background-size: cover;
+}
+
+.padding .without-padding{
+    background-color: black;
+    color: aquamarine;
+}
+
+.padding{
+    background-color: bisque;
+    padding: 20px;
+}
+
+.padding.individual{
+    background-color: aquamarine;
+    color: #a5f;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
